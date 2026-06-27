@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NayePankh Foundation</title>
+</head>
+<body >
+    <div class="con" id="con">
+     <nav class="navb" id="nav">
+        <a href="#about">about</a>
+        <a href="index.html">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="donate.html">Donate</a>
+         <button class="butt" id="butt" onclick="onto()">brightness mode</button>
+    </nav><hr>
+
+    <center><h1><i>NayePankh Foundation</i></h1></center>
+<div class="about" id="about">
+    <h1>About</h1>
+    <center>"NayePankh Foundation" is a non governmental organisation with a strong desire to help the society and make it a better place for all, by doing everything in our power and to make our vision successful we would require your vital support. Service to mankind is the service to god. Let’s revolutionise the society together!.</center>
+</div>
+<div class="doller" id="doller">
+<center><h1>Welcome to Nayepankh Foundation</h1></center>
+<center>
+We are one of the Biggest Student led NGO of India with its operations extended in the city of Kanpur, Ghaziabad and various other cities.</center>
+
+</div>
+
+<div class="join"  id="join">
+<h1>Join Our Team</h1><p>"Join our team and make a difference in the lives of those in need. At NayePankh Foundation, we are committed to creating positive change and empowering communities. By joining our team, you will have the opportunity to contribute your time, skills, and ideas to help make a real impact. Whether you are passionate about education, health, or providing support during times of crisis, there is a place for you on our team. Join us today and be a part of an organization that is making a difference, one person at a time."</p>
+</div>
+<div>
+
+
+    <founder class="founder" id="founder">
+<center><h1>"If we all do something, then together there is no problem that we cannot solve!"</h1>
+        <h3>PRASHANT SHUKLA</h3>
+        <h4>Founder & President, NayePankh Foundation</h4>
+</center>
+
+    </founder>
+</div>
+
+
+
+         </div>
+
+
+         <footer>
+
+    <contact class="cont"  id="contact">
+        <h1>In touch</h1>
+      <center>  <h3>contact@nayepankh.com</h3>
+        <h3>Mobile No: +91- 8318500748</h3> <hr> <h3>Follow us</h3>
+        <logos class="logos"  id="logos">
+           
+          <a href="https://www.instagram.com/nayepankhfoundation" ><img src="insta.png"></a> 
+          <a href="https://www.linkedin.com/company/nayepankh"><img  src="linkedin.png"></a>
+          <a href="https://www.youtube.com/@nayepankhfoundation"> <img src="youtube.png"> </a>
+         
+          </logos>
+        </center>
+    </contact>
+</footer>
+</body>
+
+<style>
+
+
+.logos{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+}.logos:hover{
+    scale: 90%;
+}
+
+ .doller{
+color: white;
+background-color: gray;
+height: 150px;
+width: 90%;
+margin-left: 60px;
+border-radius: 18px;
+
+ }
+
+.con{
+    background-color: black;
+    color: white;
+    
+}
+
+
+
+
+.navb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.founder{
+padding-bottom: 30px;
+margin-bottom: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.cont{
+
+    color: rgb(30, 11, 11);
+    background-color: gray;
+    padding-bottom: 30px;
+}
+.con{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: medium;
+font-weight: 400;
+
+}
+
+.butt{
+    height: 38px;
+    width: 68px;
+    background-color: blue;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+</style>
+
+<script>
+i=0;
+function onto()
+{
+    if(i%2==0){
+document.getElementById('con').style.backgroundColor='white';
+document.getElementById('con').style.color='black';
+document.getElementById('butt').textContent='Dark Mode';
+// document.getElementById('nav').style.backgroundColor='white';
+// document.getElementById('nav').style.color='black';
+  i++
+    }
+
+    else{
+document.getElementById('con').style.backgroundColor='black';
+document.getElementById('con').style.color='white';
+document.getElementById('butt').textContent='light mode';
+document.getElementById('nav').style.backgroundColor='black';
+document.getElementById('nav').style.color='white';
+i++;
+    }
+
+
+}
+
+
+</script>
+
+
+
+</html>
